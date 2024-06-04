@@ -1,0 +1,232 @@
+body {
+  margin: 0%;
+}
+
+.landningssida {
+  display: flex;
+  flex-direction: column;
+}
+
+.container1 {
+  background-image: url(./images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 100;
+  font-style: normal;
+  padding: 0px 36px;
+  margin-top: 24px;
+}
+
+.navlogo {
+  width: 50px;
+}
+
+.navitems {
+  display: flex;
+  gap: 24px;
+}
+
+.navbutton {
+  background-color: #5163f5;
+  color: white;
+  border-radius: 10px;
+  height: 24px;
+  border: none;
+  outline: none;
+  padding: 0px 16px;
+}
+
+.heropage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 0px;
+}
+
+h1 {
+  width: 500px;
+  text-align: center;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 48px;
+}
+
+h2 {
+  width: 400px;
+  text-align: center;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 16px;
+  margin-bottom: 36px;
+}
+
+.button2 {
+  background-color: #5163f5;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  border-radius: 10px;
+  padding: 4px 24px;
+  border: none;
+  outline: none;
+}
+
+.container2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  background-color: gainsboro;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 48px 0px;
+}
+
+.c2inner1 {
+  background-image: url(images/guy.png);
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.c2inner2 {
+  color: #2c2f2f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.c2subheading {
+  font-size: 16px;
+}
+
+.c2heading {
+  font-size: 36px;
+}
+
+.c2body {
+  width: 400px;
+  font-size: 14px;
+}
+
+.container3 {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 48px 0px;
+}
+
+.c3heading {
+  color: #2c2f2f;
+  font-size: 24px;
+  padding-bottom: 36px;
+}
+
+.c3inner {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: #2c2f2f;
+  gap: 36px;
+}
+
+.box {
+  background-color: #5163f5;
+  background-color: white;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.citat {
+  font-size: 16px;
+}
+
+.container4 {
+  background-color: #5163f5;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 48px 128px;
+}
+
+.c4subheading {
+  font-size: 20px;
+}
+
+.c4heading {
+  font-size: 32px;
+  padding: 16px 0px;
+}
+
+.c4body {
+  font-size: 16px;
+  width: 400px;
+}
+
+.c4button {
+  border-radius: 12px;
+  padding: 4px;
+  margin: 36px 0px;
+  color: #5163f5;
+  border: none;
+  outline: none;
+  width: 128px;
+}
+
+.container5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  color: black;
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 48px 128px;
+}
+
+.c5inner {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 6px;
+}
+
+.c5inner2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footerlogo {
+  width: 150px;
+}
